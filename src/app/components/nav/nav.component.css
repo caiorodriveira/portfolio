@@ -1,0 +1,14 @@
+.offcanvas-body{
+  padding: 0;
+  overflow: none;
+}
+
+.offcanvas-body > ul{
+  background-color: blue;
+  height: 100%;
+}
+
+.nav-item{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
