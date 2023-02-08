@@ -1,3 +1,35 @@
 .container-fluid{
   color: #fff;
+  display: flex;
 }
+
+.informacoes{
+  /* background-color: #3d3d3c; */
+  width: 50%;
+  font-family: 'Russo One', sans-serif;
+}
+
+.imagem{
+  height: 100px;
+  width: 50%;
+  background-color: darkblue;
+}
+
+.informacoes > .title-info{
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.tecnologias{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* .tecnologias > span{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+} */
+
+
