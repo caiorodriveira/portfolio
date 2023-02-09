@@ -1,6 +1,9 @@
 .container-fluid{
   color: #fff;
   display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  margin-bottom: 5%;
 }
 
 .informacoes{
@@ -10,9 +13,14 @@
 }
 
 .imagem{
-  height: 100px;
   width: 50%;
-  background-color: darkblue;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* background-color: darkblue; */
+}
+.imagem > img {
+  width: 70%;
 }
 
 .informacoes > .title-info{
@@ -26,10 +34,23 @@
   align-items: center;
 }
 
-/* .tecnologias > span{
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-} */
+.btn-saiba-mais{
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  background: #212529;
+  color: #fff;
+  border: 3px solid #fff;
+}
 
+.btn-saiba-mais:hover{
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s;
+  background: none;
+  z-index: 99;
+}
 
