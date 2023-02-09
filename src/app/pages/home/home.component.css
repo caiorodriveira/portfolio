@@ -9,7 +9,7 @@
 .informacoes{
   /* background-color: #3d3d3c; */
   width: 50%;
-  font-family: 'Russo One', sans-serif;
+  font-family: var(--font);
 }
 
 .imagem{

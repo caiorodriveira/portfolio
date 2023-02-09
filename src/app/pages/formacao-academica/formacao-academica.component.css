@@ -1,0 +1,46 @@
+.container-fluid{
+  color: #fff;
+  font-family: var(--font);
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.informacoes{
+  align-self: center;
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+}
+
+.informacoes > .title-info{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.title-superior, .title-extracurricular, .title-outros-cursos, .title-certificados{
+  border-radius: 10px;
+  line-height: 1.55em;
+  font-size: 1.5em;
+  background-color: #212529;
+  text-align: center;
+}
+
+.list-superior, .list-extracurricular, .list-outros-cursos{
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.lista-certificados li{
+  color: #000;
+  display: inline-block;
+  padding-right: 4px;
+}
+
+li.card{
+  width: 250px;
+  height: 200px;
+}
+li.card > img{
+  width: 100%;
+  height: 100%;
+}

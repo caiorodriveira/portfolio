@@ -10,13 +10,15 @@ import { NavComponent } from './components/nav/nav.component';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HomeComponent } from './pages/home/home.component';
+import { FormacaoAcademicaComponent } from './pages/formacao-academica/formacao-academica.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    FormacaoAcademicaComponent
   ],
   imports: [
     BrowserModule,

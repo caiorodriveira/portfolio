@@ -29,6 +29,10 @@
   margin-right: 10px;
   text-align: end;
 }
+.active {
+  background-color: #16191c;
+  border-radius: 10px 0 0 10px;
+}
 
 .material-symbols-outlined {
   cursor: pointer;
