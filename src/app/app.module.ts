@@ -11,6 +11,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HomeComponent } from './pages/home/home.component';
 import { FormacaoAcademicaComponent } from './pages/formacao-academica/formacao-academica.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { CertificadoDialogComponent } from './dialogs/certificado-dialog/certificado-dialog.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { FormacaoAcademicaComponent } from './pages/formacao-academica/formacao-
     FooterComponent,
     NavComponent,
     HomeComponent,
-    FormacaoAcademicaComponent
+    FormacaoAcademicaComponent,
+    CertificadoDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +29,7 @@ import { FormacaoAcademicaComponent } from './pages/formacao-academica/formacao-
     BrowserAnimationsModule,
     MatTooltipModule,
     MatSnackBarModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
