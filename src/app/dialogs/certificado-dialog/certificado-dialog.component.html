@@ -1,5 +1,8 @@
-<div class="bg-default">
-  <h1 mat-dialog-title class="text-center text-white"> <strong>{{data.alt}} </strong> </h1>
+<div class="bg-default d-flex align-items-center row">
+  <h1 mat-dialog-title class="text-center text-white col-11"> <strong>{{data.alt}} </strong> </h1>
+  <span class="material-symbols-outlined col-1 font-30" (click)="onNoClick()">
+    close
+  </span>
 </div>
 <div mat-dialog-content class="content">
   <div class="img-div">

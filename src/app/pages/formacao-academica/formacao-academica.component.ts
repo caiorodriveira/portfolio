@@ -23,7 +23,11 @@ export class FormacaoAcademicaComponent {
   openDialog(srcImg: string, altImg: string): void {
     const dialogRef = this.dialog.open(CertificadoDialogComponent, {
       data: {src: srcImg, alt: altImg},
+      enterAnimationDuration: "0.5s",
+      exitAnimationDuration: "0.3s"
     });
+
+
 
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');

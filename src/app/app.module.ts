@@ -13,6 +13,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { FormacaoAcademicaComponent } from './pages/formacao-academica/formacao-academica.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CertificadoDialogComponent } from './dialogs/certificado-dialog/certificado-dialog.component';
+import { ExperienciaProfissionalComponent } from './pages/experiencia-profissional/experiencia-profissional.component';
+import { ApresentacaoComponent } from './pages/apresentacao/apresentacao.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CertificadoDialogComponent } from './dialogs/certificado-dialog/certifi
     NavComponent,
     HomeComponent,
     FormacaoAcademicaComponent,
-    CertificadoDialogComponent
+    CertificadoDialogComponent,
+    ExperienciaProfissionalComponent,
+    ApresentacaoComponent
   ],
   imports: [
     BrowserModule,
