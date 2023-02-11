@@ -20,9 +20,7 @@
   line-height: 50px;
 }
 
-.projetos{
-  margin-top: 2%;
-  background-color: #fff;
+.row{
   height: 50vh;
   padding: 0 100px;
   gap: calc((100% / 12) * 2);
