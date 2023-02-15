@@ -1,4 +1,4 @@
-.container-fluid{
+.container-fluid {
   padding: 0;
   margin: 0;
   color: #fff;
@@ -7,7 +7,8 @@
   display: flex;
   flex-flow: column;
 }
-.informacoes{
+
+.informacoes {
   align-self: center;
   display: flex;
   flex-flow: column;
@@ -15,19 +16,36 @@
   margin-top: 2%;
 }
 
-.informacoes > .title-info{
+.informacoes>.title-info {
   font-size: 50px;
   line-height: 50px;
 }
 
-.row{
+.row {
   height: 40vh;
   padding: 0 100px;
   gap: calc((100% / 12) * 2);
 }
 
-.projeto p{
+.projeto p {
   text-align: center;
   margin-top: 15px;
   font-size: 20px;
+}
+
+.projeto {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.avisos-descricao,
+.acessounico-descricao,
+.recadastramento-descricao,
+.cdnpmsv-descricao {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
 }
