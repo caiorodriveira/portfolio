@@ -40,3 +40,15 @@
   padding-bottom: 5px;
 }
 
+@media only screen and (max-width: 1200px){
+  .lista-estagio, .subtitle-estagio{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .lista-estagio, .subtitle-estagio{
+    width: 100%;
+  }
+}
+
