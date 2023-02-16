@@ -38,12 +38,12 @@
       </ul>
     </div>
 
-    <div class="certificados">
-      <p class="title-certificados mt-3"> Certificados </p>
-      <ul class="lista-certificados">
+    <div class="certificados-desktop">
+      <p class="title-certificados-desktop mt-3"> Certificados </p>
+      <ul class="lista-certificados-desktop">
         <li class="card"*ngFor="let item of certificados" (click)="openDialog(item.src, item.alt)">
           <img src="{{item.src}}" alt="{{item.alt}}">
-          <div class="middle">
+          <div class="middle-desktop">
             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#000" class="bi bi-eye-fill" viewBox="0 0 16 16">
               <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
               <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
@@ -51,6 +51,38 @@
           </div>
         </li>
       </ul>
+    </div>
+
+    <div class="certificados-mobile mb-5">
+      <p class="title-certificados-mobile mt-3"> Certificados </p>
+      <p class="text-center"><i>Deslize</i></p>
+      <p class="text-center"><i>Clique na imagem para visualizar</i></p>
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item" [class]="i==0?'active':null" *ngFor="let img of certificados;let i= index" (click)="viewFile(img.src)">
+            <img src="{{img.src}}" alt="{{img.alt}}" class="d-block w-100">
+            <!-- <div class="carousel-caption">
+
+            </div> -->
+          </div>
+
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+
+      </div>
     </div>
   </div>
 </div>

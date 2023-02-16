@@ -12,8 +12,8 @@ export class FormacaoAcademicaComponent {
   certificados: any = [
     {src: "assets/certificates/cisco_certificado.png", alt: "CISCO Certificado"},
     {src: "assets/certificates/quebec_java_certificado.png", alt: "Québec Java Certificado"},
-    {src: "assets/certificates/security_certificado.png", alt: "Security SpingBoot Certificado"},
     {src: "assets/certificates/swagger_certificado.png", alt: "Swagger SpingBoot Certificado"},
+    {src: "assets/certificates/security_certificado.png", alt: "Security SpingBoot Certificado"},
   ]
 
   constructor(public dialog: MatDialog){
@@ -27,12 +27,14 @@ export class FormacaoAcademicaComponent {
       exitAnimationDuration: "0.3s"
     });
 
-
-
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
       console.log(result)
     });
+  }
+
+  viewFile(url: string): void{
+    window.open(url)
   }
 }
 
