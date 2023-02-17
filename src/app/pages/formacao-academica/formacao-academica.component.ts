@@ -27,10 +27,7 @@ export class FormacaoAcademicaComponent {
       exitAnimationDuration: "0.3s"
     });
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      console.log(result)
-    });
+    dialogRef.afterClosed().subscribe(() => {});
   }
 
   viewFile(url: string): void{
