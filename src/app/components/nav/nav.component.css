@@ -1,6 +1,15 @@
+nav{
+  font-family: var(--font);
+}
+
+.offcanvas{
+  font-family: var(--font);
+
+}
 .offcanvas-title{
   font-size: 15px;
   margin-top: 15px;
+  font-family: var(--font);
 }
 
 .offcanvas-body{
@@ -18,7 +27,7 @@
   width: 80%;
   height: 50px;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: var(--font);
   cursor: pointer;
 }
 .nav-item:hover{
@@ -47,3 +56,4 @@
   border-radius: 4px;
   transition: 0.5s;
 }
+

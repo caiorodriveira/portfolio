@@ -6,7 +6,7 @@
       school
       </span>
     </div>
-
+    <hr class="hr-mobile">
     <div class="superior">
       <p class="title-superior mt-3">Formação Superior</p>
       <ul class="list-superior">
@@ -67,20 +67,17 @@
         <div class="carousel-inner">
           <div class="carousel-item" [class]="i==0?'active':null" *ngFor="let img of certificados;let i= index" (click)="viewFile(img.src)">
             <img src="{{img.src}}" alt="{{img.alt}}" class="d-block w-100">
-            <!-- <div class="carousel-caption">
-
-            </div> -->
           </div>
 
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button> -->
+        </button>
 
       </div>
     </div>

@@ -71,6 +71,10 @@ li.card:hover .middle-desktop{
   text-align: center;
 }
 
+.hr-mobile{
+  display: none;
+}
+
 .material-symbols-outlined {
   font-size: 100px;
   font-variation-settings:
@@ -144,6 +148,9 @@ li.card:hover .middle-desktop{
 @media only screen and (max-width: 590px){
   .material-symbols-outlined {
     display: none;
+  }
+  .hr-mobile{
+    display: block;
   }
   .informacoes > .title-info{
     font-size: 25px;

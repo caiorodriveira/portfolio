@@ -40,6 +40,10 @@
   padding-bottom: 5px;
 }
 
+.hr-mobile{
+  display: none;
+}
+
 @media only screen and (max-width: 1200px){
   .lista-estagio, .subtitle-estagio{
     width: 80%;
@@ -52,3 +56,43 @@
   }
 }
 
+@media only screen and (max-width: 940px){
+  .informacoes > .title-info p{
+    font-size: 30px !important;
+    margin-bottom: 0px;
+  }
+
+  .informacoes > .title-info span{
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .informacoes > .title-info p{
+    font-size: 25px !important;
+  }
+
+  .informacoes > .title-info span{
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .informacoes > .title-info p{
+    font-size: 20px !important;
+  }
+  .material-symbols-outlined{
+    display:none;
+  }
+  .hr-mobile{
+    display: block;
+  }
+}
+
+
+
+@media only screen and (max-width: 382px){
+  .informacoes > .title-info p{
+    font-size: 15px !important;
+  }
+}

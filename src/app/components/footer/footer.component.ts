@@ -11,8 +11,10 @@ export class FooterComponent {
   constructor(private _snackBar: MatSnackBar){}
 
   copy() {
-    navigator.clipboard.writeText('caiorodrigo2775@gmail.com').then(() => {});
-    this._snackBar.open("Copiado para a área de transfência", "OK");
+    navigator.clipboard?.writeText('caiorodrigo2775@gmail.com');
+    this._snackBar.open("Email copiado para a área de transfência", "OK", {
+      duration: 3000,
+    });
 
   }
 }
