@@ -6,13 +6,14 @@
   width: 100%;
   display: flex;
   flex-flow: column;
+
 }
 
 .informacoes {
   align-self: center;
   display: flex;
   flex-flow: column;
-  width: 80%;
+  width: 100%;
   margin-top: 2%;
 }
 
@@ -21,11 +22,19 @@
   line-height: 50px;
 }
 
-.row {
-  height: 40vh;
-  padding: 0 100px;
-  gap: calc((100% / 12) * 2);
+.projetos{
+  display: flex;
+  flex-flow: column;
+  min-height: 80vh;
+  gap: 50px;
 }
+
+.projetos-row{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 
 .projeto p {
   text-align: center;
@@ -37,6 +46,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  width: 500px;
 }
 
 .avisos-descricao,
@@ -45,7 +55,63 @@
 .cdnpmsv-descricao {
   width: 90%;
   height: 80%;
+  min-height: 305px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  word-break: break-word;
 }
+
+.hr-mobile{
+  display: none;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .projeto{
+    width: 400px;
+  }
+
+  .informacoes > .title-info{
+    font-size: 45px;
+  }
+}
+
+
+@media only screen and (max-width: 830px) {
+  .informacoes{
+    width: 100%;
+  }
+  .projeto{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .projetos-row{
+    flex-flow: column;
+    gap: 50px;
+    align-items: center;
+  }
+  .projeto{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .informacoes > .title-info{
+    font-size: 20px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .hr-mobile{
+    display: block;
+  }
+}
+
