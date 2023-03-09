@@ -20,15 +20,15 @@ export class FormacaoAcademicaComponent {
 
   }
 
-  openDialog(srcImg: string, altImg: string): void {
-    const dialogRef = this.dialog.open(CertificadoDialogComponent, {
-      data: {src: srcImg, alt: altImg},
-      enterAnimationDuration: "0.5s",
-      exitAnimationDuration: "0.3s"
-    });
+  // openDialog(srcImg: string, altImg: string): void {
+  //   const dialogRef = this.dialog.open(CertificadoDialogComponent, {
+  //     data: {src: srcImg, alt: altImg},
+  //     enterAnimationDuration: "0.5s",
+  //     exitAnimationDuration: "0.3s"
+  //   });
 
-    dialogRef.afterClosed().subscribe(() => {});
-  }
+  //   dialogRef.afterClosed().subscribe(() => {});
+  // }
 
   viewFile(url: string): void{
     window.open(url)

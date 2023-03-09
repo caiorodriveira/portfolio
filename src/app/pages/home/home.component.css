@@ -57,6 +57,10 @@
   display: none;
 }
 
+.pointer:hover{
+  color: #8c949c;
+}
+
 
 @media only screen and (max-width: 1350px){
   .informacoes > .title-info{

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  downloadCv(){
+    window.open("assets/cv_caio_rodrigo.pdf")
+  }
 }

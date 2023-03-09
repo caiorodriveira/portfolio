@@ -8,6 +8,18 @@
       Olá, meu nome é Caio Rodrigo de Oliveira Programador e futuro Analista de Sistemas,
       bem vindo ao meu portifólio desenvolvido em Angular CLI.
     </p>
+    <p>Baixe meu curriulo: &nbsp;&nbsp;
+      <span class="pointer" (click)="downloadCv()">
+        Download
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+          viewBox="0 0 16 16">
+          <path
+            d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+          <path
+            d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+        </svg>
+      </span>
+    </p>
     <p class="font-20 bg-dark">&nbsp;&nbsp;&nbsp;Sobre Mim</p>
     <p>
       Atualmente estou cursando o 4º semestre de Análise e Desenvolvimento de Sistemas na
@@ -19,52 +31,84 @@
     <div class="tecnologias">
       <div class="d-flex justify-content-evenly w-100">
         <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java">
-          <p>Java</p>
-        </span>
-        <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="logo springboot">
-          <p>SpringBoot</p>
-        </span>
-        <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html">
           <p>HTML5</p>
         </span>
         <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css">
           <p>CSS3</p>
         </span>
         <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="javascript">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+            alt="typescript">
+          <p>TypeScript</p>
+        </span>
+        <span class="d-flex flex-column align-items-center">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+            alt="javascript">
           <p>JavaScript</p>
         </span>
       </div>
       <div class="d-flex justify-content-evenly w-100">
         <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp">
-          <p>C#</p>
-        </span>
-        <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript">
-          <p>TypeScript</p>
-        </span>
-        <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap">
+          <img height="40" width="40"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap">
           <p>Bootstrap</p>
         </span>
         <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java">
+          <p>Java</p>
+        </span>
+        <span class="d-flex flex-column align-items-center">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
+            alt="logo springboot">
+          <p>SpringBoot</p>
+        </span>
+        <span class="d-flex flex-column align-items-center">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+            alt="csharp">
+          <p>C#</p>
+        </span>
+      </div>
+      <div class="d-flex justify-content-evenly w-100">
+        <span class="d-flex flex-column align-items-center">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql">
           <p>MySql</p>
         </span>
         <span class="d-flex flex-column align-items-center">
-          <img height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postegresql">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+            alt="postegresql">
           <p>PostgreSQL</p>
+        </span>
+        <span class="d-flex flex-column align-items-center">
+          <img height="40" width="40" src="assets/svgs/angular.svg" alt="angular">
+          <p>Angular</p>
+        </span>
+        <span class="d-flex flex-column align-items-center">
+          <img height="40" width="40"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git">
+          <p>GIT</p>
         </span>
       </div>
     </div>
+    <div class="d-flex justify-content-evenly w-100">
+      <span class="d-flex flex-column align-items-center">
+        <img height="40" width="40" src="assets/svgs/swagger.svg" alt="swagger">
+        <p>Swagger</p>
+      </span>
+    </div>
 
-    <div class="saiba-mais d-flex justify-content-center mt-5">
-       <button data-bs-toggle="offcanvas" class="btn-saiba-mais" data-bs-target="#offcanvasNavbar"> Saiba mais </button>
+    <div class="saiba-mais d-flex justify-content-around mt-3">
+      <button data-bs-toggle="offcanvas" class="btn-saiba-mais" data-bs-target="#offcanvasNavbar"> Saiba mais </button>
     </div>
 
   </div>

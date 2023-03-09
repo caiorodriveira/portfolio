@@ -41,7 +41,7 @@
     <div class="certificados-desktop">
       <p class="title-certificados-desktop mt-3"> Certificados </p>
       <ul class="lista-certificados-desktop">
-        <li class="card"*ngFor="let item of certificados" (click)="openDialog(item.src, item.alt)">
+        <li class="card"*ngFor="let item of certificados" (click)="viewFile(item.src)">
           <img src="{{item.src}}" alt="{{item.alt}}">
           <div class="middle-desktop">
             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#000" class="bi bi-eye-fill" viewBox="0 0 16 16">
