@@ -15,6 +15,7 @@ export class FormacaoAcademicaComponent {
     // {src: "assets/certificates/swagger_certificado.png", alt: "Swagger SpingBoot Certificado"},
     {src: "assets/certificates/lgpd_certificado.png", alt: "LGPD Certificado"},
     {src: "assets/certificates/oracle_database_design_certificado.png", alt: "Oracle Academy Certificado"},
+    {src: "assets/certificates/scrum_certificado.png", alt: "Scrum Fundamentals Certificado"},
   ]
 
   constructor(public dialog: MatDialog){
