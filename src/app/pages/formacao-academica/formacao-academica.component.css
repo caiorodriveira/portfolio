@@ -89,7 +89,7 @@ li.card:hover .middle-desktop{
 
 @media only screen and (max-width: 1300px){
   li.card{
-    height: 150px;
+    height: 130px;
   }
 }
 
@@ -122,6 +122,9 @@ li.card:hover .middle-desktop{
     'opsz' 48
   }
 
+  li.card{
+    height: 100px;
+  }
 
 }
 
