@@ -32,6 +32,7 @@
 .lista-certificados-desktop{
   display: flex;
   justify-content: space-evenly;
+  overflow-x: auto;
 }
 
 .lista-certificados-desktop li{
@@ -41,9 +42,8 @@
 }
 
 li.card{
-  width: 250px;
+  min-width: 180px;
   height: 200px;
-  margin-left: 20px;
   position: relative;
 }
 li.card > img{
@@ -90,6 +90,7 @@ li.card:hover .middle-desktop{
 @media only screen and (max-width: 1300px){
   li.card{
     height: 130px;
+    min-width: none;
   }
 }
 

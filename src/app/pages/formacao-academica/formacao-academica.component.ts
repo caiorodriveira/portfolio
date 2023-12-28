@@ -16,6 +16,8 @@ export class FormacaoAcademicaComponent {
     {src: "assets/certificates/lgpd_certificado.png", alt: "LGPD Certificado"},
     {src: "assets/certificates/oracle_database_design_certificado.png", alt: "Oracle Academy Certificado"},
     {src: "assets/certificates/scrum_certificado.png", alt: "Scrum Fundamentals Certificado"},
+    {src: "assets/certificates/oracle_database_programming_certificado.png", alt: "Oracle Academy Certificado"},
+    {src: "assets/certificates/cisco_certificado_2.png", alt: "CISCO Certificado"},
   ]
 
   constructor(public dialog: MatDialog){
