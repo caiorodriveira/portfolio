@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "portifolio-caio:build:production"
+              "buildTarget": "portifolio-caio:build:production"
             },
             "development": {
-              "browserTarget": "portifolio-caio:build:development"
+              "buildTarget": "portifolio-caio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portifolio-caio:build"
+            "buildTarget": "portifolio-caio:build"
           }
         },
         "test": {
