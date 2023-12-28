@@ -17,6 +17,11 @@
   line-height: 50px;
 }
 
+.outros-cursos{
+  overflow-y: auto;
+  max-height: 700px;
+}
+
 .title-superior, .title-extracurricular, .title-outros-cursos, .title-certificados-desktop{
   border-radius: 10px 10px 0 0;
   line-height: 1.55em;
