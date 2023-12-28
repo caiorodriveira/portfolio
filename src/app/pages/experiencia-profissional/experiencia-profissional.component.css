@@ -14,7 +14,17 @@
   width: 80%;
 }
 
-.title-estagio{
+.emprego{
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  min-width: 462px;
+}
+
+
+.title{
+  width: 100%;
+  align-self: center;
   border-radius: 10px 10px 0px 0px;
   line-height: 1.55em;
   font-size: 1.5em;
@@ -22,8 +32,8 @@
   text-align: center;
 }
 
-.subtitle-estagio{
-  width: 50%;
+.subtitle{
+  width: 100%;
   align-self: center;
   background-color: #2a2e32;
   font-size: 1.25em;
@@ -31,13 +41,16 @@
   text-align: center;
   border: 1px solid #fff;
 }
-.lista-estagio{
-  width: 50%;
+.lista{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
   align-self: center;
   border: 1px solid #fff;
   border-top: none;
   line-height: 25px;
   padding-bottom: 5px;
+  padding-inline: 10px;
 }
 
 .hr-mobile{
@@ -45,13 +58,13 @@
 }
 
 @media only screen and (max-width: 1200px){
-  .lista-estagio, .subtitle-estagio{
-    width: 80%;
+  .lista, .subtitle{
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 750px){
-  .lista-estagio, .subtitle-estagio{
+  .lista, .subtitle{
     width: 100%;
   }
 }
@@ -88,8 +101,6 @@
     display: block;
   }
 }
-
-
 
 @media only screen and (max-width: 382px){
   .informacoes > .title-info p{
